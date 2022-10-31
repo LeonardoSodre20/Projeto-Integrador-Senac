@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+
+:root {
+  --fontDefault: "Yusei Magic", sans-serif;
+  --fontSizeLink: 1.5em;
+  --redColor: #a5140c;
+  --yellowColor: #fcd307;
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --fontSizeDefault: 1em;
+  --fontSizeTitle: 4em;
+}

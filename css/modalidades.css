@@ -1,0 +1,119 @@
+@import url(variables.css);
+
+.container-modalidades {
+  top: 130px;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  gap: 1.5em;
+}
+
+.titulo-principal {
+  font-size: var(--fontSizeTitle);
+  font-family: var(--fontDefault);
+  letter-spacing: 0.15em;
+  color: var(--redColor);
+}
+
+.titulo-secundario {
+  color: var(--redColor);
+  font-family: var(--fontDefault);
+}
+
+.container-info {
+  animation: translateAndFadeLeft 2s normal;
+  position: relative;
+  top: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  gap: 1.5em;
+  margin-left: 1.5em;
+}
+
+.info {
+  font-family: var(--fontDefault);
+  line-height: 1.8em;
+  font-size: var(--fontSizeDefault);
+  text-align: justify;
+}
+
+/*-----------------------CONTAINER FOTOS ANIMAIS---------------------------*/
+
+.container-fotos-animais {
+  position: relative;
+  top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+  gap: 1.8em;
+  animation: translateAndFade 2s normal;
+}
+
+.container-foto-animal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 350px;
+  width: 350px;
+  border-radius: 1.2em;
+  border: 5px solid var(--redColor);
+  margin-top: 2.5em;
+}
+
+.container-foto-animal > img {
+  width: 100%;
+  height: 90%;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.descricao-foto {
+  text-align: center;
+  color: var(--whiteColor);
+  background-color: var(--redColor);
+  width: 100%;
+  height: 10%;
+  padding: 0.15em;
+  font-size: var(--fontSizeDefault);
+  font-family: var(--fontDefault);
+  letter-spacing: 0.15em;
+  border-bottom-left-radius: 0.6em;
+  border-bottom-right-radius: 0.6em;
+  text-transform: uppercase;
+}
+
+/*------------------------ANIMAÇÕES----------------------------------*/
+
+@keyframes translateAndFade {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes translateAndFadeLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/*----------------------------RESPONSIVIDADE-----------------------------*/
