@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
   width: 100%;
   gap: 1.5em;
 }
@@ -31,7 +32,7 @@
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  width: 40%;
+  width: 45%;
   gap: 1.5em;
   margin-left: 1.5em;
 }
@@ -117,3 +118,47 @@
 }
 
 /*----------------------------RESPONSIVIDADE-----------------------------*/
+
+@media (max-width: 1500px) {
+  .container-foto-animal {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 1225px) {
+  .container-info {
+    width: 90%;
+    margin-right: 1.5em;
+  }
+  .container-fotos-animais {
+    width: 90%;
+  }
+  .titulo-principal {
+    font-size: 3em;
+  }
+  .container-foto-animal {
+    width: 70%;
+    height: 20%;
+  }
+}
+@media (max-width: 825px) {
+  /* .container-foto-animal {
+    width: 60%;
+    height: 60%;
+  } */
+  .titulo-secundario {
+    font-size: 0.85em;
+  }
+  .logo {
+    height: 90px;
+    width: 90px;
+    margin-left: 20px;
+  }
+  .container {
+    margin-right: 20px;
+  }
+  .info {
+    font-size: 0.9em;
+  }
+}
