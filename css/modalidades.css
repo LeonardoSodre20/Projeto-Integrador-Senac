@@ -73,6 +73,7 @@
   font-family: var(--fontDefault);
   letter-spacing: 0.15em;
   color: var(--whiteColor);
+  text-transform: uppercase;
 }
 
 .titulo-secundario-alternative {
@@ -114,6 +115,68 @@
   text-transform: uppercase;
 }
 
+/*------------------------CONTAINER MODALIDADE WING CHUN -------------------*/
+
+.container-modalidade-wing-chun {
+  top: 130px;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1.5em;
+  background-color: var(--whiteColor);
+}
+
+.titulo-principal-jow-ga {
+  font-size: var(--fontSizeTitle);
+  font-family: var(--fontDefault);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--redColor);
+}
+
+.info-jow-ga {
+  font-family: var(--fontDefault);
+  line-height: 1.8em;
+  font-size: var(--fontSizeDefault);
+  text-align: justify;
+}
+.container-foto-wing-chun {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 350px;
+  width: 350px;
+  border-radius: 1.2em;
+  border: 5px solid var(--redColor);
+}
+
+.container-foto-wing-chun > img {
+  width: 100%;
+  height: 90%;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.descricao-foto-wing-chun {
+  text-align: center;
+  color: var(--whiteColor);
+  background-color: var(--redColor);
+  width: 100%;
+  height: 10%;
+  padding: 0.15em;
+  font-size: var(--fontSizeDefault);
+  font-family: var(--fontDefault);
+  letter-spacing: 0.15em;
+  border-bottom-left-radius: 0.6em;
+  border-bottom-right-radius: 0.6em;
+  text-transform: uppercase;
+}
+
 /*-----------------------CONTAINER FOTOS ANIMAIS---------------------------*/
 
 .container-fotos-animais {
@@ -138,7 +201,6 @@
   width: 350px;
   border-radius: 1.2em;
   border: 5px solid var(--redColor);
-  margin-top: 2.5em;
 }
 
 .container-foto-animal > img {
