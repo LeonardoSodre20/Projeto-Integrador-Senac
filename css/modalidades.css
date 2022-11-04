@@ -225,6 +225,21 @@
   text-transform: uppercase;
 }
 
+/*-------------------CONTAINER MODALIDADE SANDA ------------------------*/
+
+.container-modalidade-sanda {
+  top: 130px;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1.5em;
+  background-color: var(--redColor);
+}
+
 /*------------------------ANIMAÇÕES----------------------------------*/
 
 @keyframes translateAndFade {
@@ -270,8 +285,12 @@
   .titulo-principal {
     font-size: 3em;
   }
-  .titulo-principal-alternative {
+
+  .titulo-principal-jow-ga {
     font-size: 3em;
+  }
+  .titulo-principal-alternative {
+    font-size: 2.5em;
   }
   .container-foto-animal {
     width: 80%;
