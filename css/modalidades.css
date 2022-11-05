@@ -268,7 +268,9 @@
 /*----------------------------RESPONSIVIDADE-----------------------------*/
 
 @media (max-width: 1500px) {
-  .container-foto-animal {
+  .container-foto-animal,
+  .container-foto-tai-chi-chuan,
+  .container-foto-wing-chun {
     width: 250px;
     height: 250px;
   }
