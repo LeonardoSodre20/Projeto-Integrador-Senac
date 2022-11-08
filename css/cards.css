@@ -67,6 +67,7 @@
   font-family: var(--fontDefault);
   padding: 10px;
   margin-bottom: 20px;
+  list-style: none;
 }
 
 @media (max-width: 500px) {
