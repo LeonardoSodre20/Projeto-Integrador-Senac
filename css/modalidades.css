@@ -1,5 +1,20 @@
 @import url(variables.css);
 
+.container-btn-top {
+  height: 70px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: yellow;
+  border-radius: 50%;
+  z-index: 150;
+  cursor: pointer;
+}
+
 .container-modalidades {
   top: 130px;
   position: relative;
@@ -298,7 +313,7 @@
   .container-foto-tai-chi-chuan,
   .container-foto-wing-chun {
     width: 90%;
-    height: 30%;
+    height: 400px;
   }
 }
 @media (max-width: 825px) {

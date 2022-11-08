@@ -1,0 +1,80 @@
+@import url(variables.css);
+
+.container_cards {
+  top: 130px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: var(--redColor);
+  gap: 40px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.container-card-missao,
+.container-card-filosofia,
+.container-card-visao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 350px;
+  gap: 30px;
+}
+
+.container-icon-visao,
+.container-icon-filosofia,
+.container-icon-missao {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--yellowColor);
+  border-radius: 50%;
+}
+
+.card > img {
+  width: 90%;
+  padding: 10px;
+}
+
+.container-info-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--yellowColor);
+  border-radius: 20px;
+  padding: 15px;
+  width: 100%;
+  height: 450px;
+}
+
+.info-titulo {
+  font-size: 2.5em;
+  font-family: var(--fontDefault);
+  text-transform: uppercase;
+}
+
+.info-card {
+  height: 60%;
+  font-size: var(--fontSizeDefault);
+  text-align: justify;
+  font-family: var(--fontDefault);
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 500px) {
+  .info-card {
+    font-size: 0.8em;
+    line-height: 25px;
+  }
+  .container-info-card {
+    height: 550px;
+  }
+}

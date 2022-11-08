@@ -1,0 +1,59 @@
+@import url(variables.css);
+
+.secao_info {
+  top: 130px;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1.5em;
+}
+
+.container-info-nilson {
+  position: relative;
+  top: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  gap: 1.5em;
+  margin-left: 1.5em;
+  margin-bottom: 130px;
+}
+
+.texto_info {
+  font-size: var(--fontSizeTitle);
+  font-family: var(--fontDefault);
+  letter-spacing: 0.15em;
+  color: var(--redColor);
+  text-transform: uppercase;
+}
+
+.info-paragrafo {
+  font-family: var(--fontDefault);
+  line-height: 1.8em;
+  font-size: var(--fontSizeDefault);
+  text-align: justify;
+}
+
+.container-instrutor-nilson {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 130px;
+}
+
+@media (max-width: 825px) {
+  .texto_info {
+    font-size: 0.9em;
+  }
+  .container-info-nilson {
+    width: 100%;
+    padding: 30px;
+    margin-left: 0;
+  }
+}

@@ -9,7 +9,7 @@
   justify-content: space-around;
   position: fixed;
   z-index: 1000;
-  box-shadow:  0 0 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .logo {
@@ -37,6 +37,9 @@
   font-family: var(--fontDefault);
   letter-spacing: 0.1em;
   transition: 0.5s;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .link:hover {
@@ -151,6 +154,18 @@
 .active .btn-right:after {
   -webkit-transform: rotateZ(45deg) scaleX(1.4) translate(-4px, -4px);
   transform: rotateZ(45deg) scaleX(1.4) translate(-4px, -4px);
+}
+
+.container-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-icon > img {
+  width: 80%;
 }
 
 @media (max-width: 1225px) {
