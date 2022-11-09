@@ -1,0 +1,64 @@
+@import url("../../css/variables.css");
+
+.footer-quem-somos {
+  bottom: -300px;
+  position: relative;
+  background-color: var(--blackColor);
+  width: 100%;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.container-copyright-alternativo {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--whiteColor);
+}
+
+.container-copyright-alternativo > img {
+  width: 90%;
+}
+
+.footer-quem-somos > p {
+  font-size: var(--fontSizeLink);
+  font-family: var(--fontDefault);
+  color: var(--whiteColor);
+  text-transform: uppercase;
+}
+
+@media (max-width: 1225px) {
+  .footer-quem-somos {
+    bottom: -1100px;
+  }
+}
+
+@media (max-width: 830px) {
+  .footer-quem-somos > p {
+    font-size: 1em;
+  }
+
+  .container-copyright-alternativo {
+    height: 70px;
+    width: 70px;
+  }
+  .footer-quem-somos {
+    bottom: -1800px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container-copyright-alternativo {
+    height: 50px;
+    width: 50px;
+  }
+  .footer-quem-somos > p {
+    font-size: 0.8em;
+  }
+}

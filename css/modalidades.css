@@ -312,8 +312,9 @@
   .container-foto-animal,
   .container-foto-tai-chi-chuan,
   .container-foto-wing-chun {
-    width: 90%;
-    height: 400px;
+    width: 550px;
+    height: 500px;
+    object-fit: cover;
   }
 }
 @media (max-width: 825px) {
@@ -330,5 +331,12 @@
   }
   .info {
     font-size: 0.9em;
+  }
+  .container-foto-animal,
+  .container-foto-tai-chi-chuan,
+  .container-foto-wing-chun {
+    width: 90%;
+    height: 500px;
+    object-fit: cover;
   }
 }
