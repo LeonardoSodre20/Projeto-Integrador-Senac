@@ -312,7 +312,7 @@
   .container-foto-animal,
   .container-foto-tai-chi-chuan,
   .container-foto-wing-chun {
-    width: 550px;
+    width: 450px;
     height: 500px;
     object-fit: cover;
   }
@@ -335,8 +335,8 @@
   .container-foto-animal,
   .container-foto-tai-chi-chuan,
   .container-foto-wing-chun {
-    width: 90%;
-    height: 500px;
+    width: 80%;
+    height: 400px;
     object-fit: cover;
   }
 }
