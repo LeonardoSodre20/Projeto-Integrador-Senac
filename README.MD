@@ -1,1 +1,1 @@
-LINK DO SITE : https://academiadekungfusorocaba.netlify.app/
+URL DO SITE : https://academiadekungfusorocaba.netlify.app/
