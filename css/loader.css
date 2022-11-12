@@ -1,0 +1,57 @@
+@import url(variables.css);
+
+.container-container-carregamento {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--redColor);
+  position: fixed;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+  animation: fadeIn 0.7s normal;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.container-loader-animation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: 150px;
+}
+
+.loaderAnimation {
+  border: none;
+  height: 100%;
+  height: 100%;
+}
+
+.title-carregamento {
+  font-size: 2em;
+  color: var(--whiteColor);
+  font-family: var(--fontDefault);
+  animation: loaderAnimation 1.2s infinite;
+}
+
+@keyframes loaderAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}

@@ -12,16 +12,17 @@
     <link rel="stylesheet" href="../css/modalidades.css" />
     <link rel="stylesheet" href="../css/footer.css" />
     <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/loader.css" />
   </head>
   <body>
     <nav class="navegacao">
-      <a href="#" class="logo">
+      <a onclick="ActiveScreenLoader('../index.html')" class="logo">
         <img src="../imgs/LOGO ACADE PNG.png" alt="logotipo" />
       </a>
 
       <ul class="lista-de-navegacao">
         <li>
-          <a href="../index.html" class="link">
+          <a onclick="ActiveScreenLoader('../index.html')" class="link">
             <div class="container-icon">
               <img src="../imgs/icons/house.png" alt="house-icon" />
             </div>
@@ -29,7 +30,10 @@
           >
         </li>
         <li>
-          <a href="../pages/quemSomos.html" class="link">
+          <a
+            onclick="ActiveScreenLoader('../pages/quemSomos.html')"
+            class="link"
+          >
             <div class="container-icon">
               <img
                 src="../imgs/icons/icons8-informações-30.png"
@@ -40,7 +44,7 @@
           >
         </li>
         <li>
-          <a href="modalidades.html" class="link">
+          <a class="link">
             <div class="container-icon">
               <img src="../imgs/icons/kungFu.png" alt="modalidades-icon" />
             </div>
@@ -68,6 +72,16 @@
         </div>
       </div>
     </nav>
+
+    <div class="container-container-carregamento">
+      <div class="container-loader-animation">
+        <iframe
+          src="https://embed.lottiefiles.com/animation/91619"
+          class="loaderAnimation"
+        ></iframe>
+      </div>
+      <h1 class="title-carregamento">Carregando...</h1>
+    </div>
 
     <section class="container-icons-redes-sociais">
       <a
@@ -100,10 +114,6 @@
         />
       </a>
     </section>
-
-    <div class="container-btn-top">
-      <img src="../imgs/icons/icons8-acima-50.png" alt="seta" />
-    </div>
 
     <main>
       <section class="container-modalidades">
@@ -455,5 +465,6 @@
       <p>Academia de Kung Fu Sorocaba</p>
     </footer>
     <script src="../js/menu.js"></script>
+    <script src="../js/loader.js"></script>
   </body>
 </html>
